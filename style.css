@@ -1,0 +1,14 @@
+h1 {
+    color :  white;
+    text-align : center;
+}
+body {
+    background-color : powderblue;
+}
+p {
+    font-family : verdana;
+    font-size : 1vw;
+}
+marquee {
+    color : white;
+}
