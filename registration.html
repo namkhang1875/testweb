@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>หน้าลงทะเบียน</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color : orange;
+            }
+            .container {
+                background-color : red;
+                width : 100%;
+                height : auto;
+            }
+            input{
+                width : 100%;
+                height : auto;
+            }
+            label{
+                width : 100%;
+                height : auto;
+            }
+            table{
+                width : 100%;
+                height : auto;
+            }
+        </style>
+    </head>
+        <body leftmargin = "600" topmargin = "200" >
+            <P><b>ลงทะเบียนผู้ใช้งานใหม่</b></p>
+            <hr width ="310" color = "white" noshade></hr>
+           
+            <div class="container"  >
+                 <table align = "center">
+                    <tr>
+                        <td><label for="uname"><b>อีเมล</b></label></td>
+                        <td><input type="text" placeholder="โปรดใช้อีเมลสถาบัน" name="email" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td><label for="psw"><b>ชื่อที่จะแสดงในระบบ</b></label></td>
+                        <td><input type="text" placeholder="กรอกชื่อที่ต้องการใช้" name="disname" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td><label for="psw"><b>รหัสผ่าน</b></label></td>
+                        <td><input type="password" placeholder="ป้อนรหัสผ่าน" name="psw" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td><label for="psw"><b>ยืนยันรหัสผ่าน</b></label></td>
+                        <td><input type="password" placeholder="ยืนยันรหัสผ่าน" name="psw" required autofocus></td>
+                    </tr>
+                </table>
+                <br></br>
+                
+            </div>
+            <button type="submit">ลงทะเบียน</button>
+        </body>
+</html>
